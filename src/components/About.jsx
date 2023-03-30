@@ -6,7 +6,7 @@ import { motion } from 'framer-motion'
 
 import { fadeIn } from '../variants'  
 
-function About() {
+export default function About() {
   const [ref, InView] = useInView({
     threshold: 0.5,
   })
@@ -36,7 +36,9 @@ function About() {
             className="flex-1">
             <h2 className="h2 text-accent">Sobre mim.</h2>
             <h3 className="h3 mb-4">Sou Desenvolvedor Front-end,</h3>
-            <p className="mb-6">alguma coisa alguma coisa alguma coisa</p>
+            <p className="mb-6">
+              Bem vindo(a) ao meu portifólio, eu
+            </p>
             
             <div className="flex gap-x-8 items-center">
               <button className="btn btn-lg">Contact me</button>
@@ -50,7 +52,3 @@ function About() {
     </section>
   )
 }
-
-  export default About
-
-

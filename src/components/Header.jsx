@@ -2,7 +2,7 @@ import React from 'react'
 
 import { Link } from 'react-scroll'
 
-function Header() {
+export default function Header() {
   return (
     <header className="py-8">
       <div className="container mx-auto">
@@ -21,5 +21,3 @@ function Header() {
     </header>
   )
 }
-
-export default Header

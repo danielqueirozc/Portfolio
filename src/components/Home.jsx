@@ -11,8 +11,10 @@ import { TypeAnimation } from 'react-type-animation'
 import { motion } from 'framer-motion'
 
 import { fadeIn } from '../variants'
+import { Link } from 'react-scroll';
 
-function Home() {
+
+export default function Home() {
   return (
     <section className="min-h-[85vh] lg:min-h-[75vh] flex items-center" id="home">
       <div className="container mx-auto">
@@ -36,10 +38,14 @@ function Home() {
               repeat={Infinity}
             />
             </motion.div> 
-            <motion.p variants={fadeIn('up', 0.5)} initial="hidden" whileInView={'show'} viewport={{once: false, amount: 0.7}}   className="mb-8 max-w-lg mx-auto lg:mx-0"> alguma coisa alguma coisa alguma coisa alguma coisa</motion.p>
+            <motion.p variants={fadeIn('up', 0.5)} initial="hidden" whileInView={'show'} viewport={{once: false, amount: 0.7}}   className="mb-8 max-w-lg mx-auto lg:mx-0">
+              Olá bem vindo(a) ao meu Portifólio
+            </motion.p>
   
             <motion.div variants={fadeIn('up', 0.6)} initial="hidden" whileInView={'show'} viewport={{once: false, amount: 0.7}} className="flex max-w-max gap-x-6 items-center mb-12 mx-auto lg:mx-0">
-              <button className="btn btn-lg">Contact me</button>
+              <button className="btn btn-lg">
+                <a href="https://linktree-zeta.vercel.app/">Contato</a>
+              </button>
               <a href="#" className="text-gradient btn-link">Meu Portifólio</a>
             </motion.div>
   
@@ -65,5 +71,3 @@ function Home() {
     </section>
   )
 }
-
-export default Home

@@ -1,4 +1,5 @@
 import React from 'react'
+import {Link} from 'react-scroll'
 
 import { FaGitAlt, FaNodeJs, FaReact } from 'react-icons/fa'
 import { TbBrandNextjs } from 'react-icons/tb'
@@ -8,10 +9,10 @@ import { motion } from 'framer-motion'
 
 import { fadeIn } from '../variants'
 
-function Skills() {
+export default function Skills() {
   return(
     <section className="section flex items-center" id="skills">
-      <div className="container mx-auto">
+      <Link className="container mx-auto">
 
         <motion.div variants={fadeIn('left', 0.3)} 
             initial="hidden" 
@@ -63,9 +64,7 @@ function Skills() {
 
         </motion.div>
 
-      </div>
+      </Link>
     </section>
   )
 }
-
-export default Skills

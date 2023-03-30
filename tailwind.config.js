@@ -28,7 +28,7 @@ module.exports = {
     },
   },
   plugins: [],
-};
+}
 
 module.exports = {
   content: ['./src/**/*.{js,jsx,ts,tsx}'],
@@ -59,8 +59,9 @@ module.exports = {
         about: "url('./assets/about.png')",
         services: "url('./assets/services.png')",
       },
+      
     },
   },
-  plugins: [],
-
+  plugins: [
+],
 }

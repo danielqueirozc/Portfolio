@@ -4,11 +4,11 @@ import {motion} from 'framer-motion'
 
 import {fadeIn} from '../variants'
 
-import Img1 from '../assets/portfolio-img1.png'
-import Img2 from '../assets/portfolio-img2.png'
-import Img3 from '../assets/portfolio-img3.png'
+import Img1 from '../assets/portifolio-img1.png'
+import Img2 from '../assets/portifolio-img2.png'
+import Img3 from '../assets/portifolio-img3.png'
 
-function Work() {
+export default function Work() {
   return(
     <section className="section" id="work">
       <div className="container mx-auto">
@@ -24,11 +24,13 @@ function Work() {
                 RECENTES.
               </h2>
 
-              <p className="max-w-sm mb-16 mt-2 text-white">
-                alumasjsnjdskssjsjssd
+              <p className="max-w-sm mb-8 mt-2 text-white">
+                Veja alguns de meus projetos!
               </p>
 
-              <button className="btn btn-sm">Ver projetos no Github</button>
+              <button className="btn btn-sm">
+                <a href="https://github.com/danielqueirozc">Ver projetos no Github</a>
+              </button>
             </div>
             {/*image*/}
             <a href="">
@@ -82,5 +84,3 @@ function Work() {
     </section>
   )
 }
-
-export default Work

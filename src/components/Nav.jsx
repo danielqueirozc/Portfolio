@@ -1,11 +1,11 @@
-import React from 'react';
+import React from 'react'
 
 import { BiHomeAlt, BiUser } from 'react-icons/bi'
 import { BsClipboardData, BsBriefcase, BsChatSquareText } from 'react-icons/bs'
 
 import { Link } from 'react-scroll'
 
-function Nav() {
+export default function Nav() {
   return(
     <nav className="fixed bottom-2 ig:bottom-8 w-full overflow-hidden z-50">
       <div className="container mx-auto">
@@ -34,5 +34,3 @@ function Nav() {
   </nav>
   )
 }
-
-export default Nav
