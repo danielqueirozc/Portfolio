@@ -25,9 +25,11 @@ export default function About() {
               bg-about 
               bg-contain 
               bg-no-repeat 
-              h-[620px] 
+              h-[510px] 
               mix-blend-lighten 
-              bg-top"
+              bg-top
+              
+              "
             >
 
           </motion.div>
@@ -36,13 +38,14 @@ export default function About() {
             initial="hidden" 
             whileInView={"show"} 
             viewport={{once: false, amount: 0.3}} 
-            className="flex-1 overflow-hidden text-ellipsis ">
+            className="flex-1">
             <h2 className="h2 text-accent">Sobre mim.</h2>
             <h3 className="h3 mb-4">Sou Desenvolvedor Front-end,</h3>
-            <p className="mb-6">
-              Bem vindo(a) ao meu portifólio, eu me chamo Daniel, e gostaria de compartilhar um pouco sobre a minha jornada até aqui.<br />
-              Em 2022 eu conheci e me apaixonei pelo desenvolvimento de software, então logo se tornou um sonho ser um dev, então em agosto decidi começar meus estudos, venho trabalhando bastante até aqui, muitas horas de estudos e dedicação!<br />
-              E em 2023 também decidi começar a cursar analise e desenvolvimento de sistemas. Agora aqui no meu portifólio vou te mostrar tudo oque aprendi até agora<br/>
+            <p className="mb-6 ">
+              Bem vindo(a) ao meu portifólio, eu me chamo Daniel,
+              comecei minha jornada na programação em agosto de 2022(...)<br /> 
+
+              Em 2023 comecei a cursar anállse e desenvolvimento de sistemas(...)
 
               <br />
               

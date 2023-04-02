@@ -166,14 +166,6 @@
   align-items: center;
 }
 
-.modal {
-  position: fixed;
-  width: 100vw;
-  height: 100vh;
-  inset: 0;
-  background: rgba(0, 0, 0, 0.75);
-}
-
 @layer base {
   body {
     @apply font-secondary text-lg leading-8 text-white;
