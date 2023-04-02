@@ -27,7 +27,7 @@ export default function Contact() {
         setEmail('')
         setMessage('')
       }, (error) => {
-        console.log('ERRO: ', erro)
+        console.log('ERRO: ', error)
       })
   }
 

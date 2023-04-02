@@ -33,15 +33,17 @@ export default function Work() {
               </button>
             </div>
             {/*image*/}
-            <a href="">
+            <a href="https://ignite-shop-wine-three.vercel.app/">
               <div className="group relative overflow-hidden border-2 border-white/50 rounded-xl">
                 <div className="group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300"></div>
-                <img className="group-hover:scale-125 transition-all duration-600" src={Img1} alt="" />
+                
+                <img className="group-hover:scale-125 transition-all duration-600" src={Img2} alt="" />
+
                 <div className="absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50">
-                  <span className="text-gradient">Desenvolvedor Front-end</span>
+                  <span className="text-gradient">Spotify</span>
                 </div>
                 <div className="absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50">
-                  <span className="text-3-xl text-white">Projeto</span>
+                  <span className="text-3-xl text-white">Landing page Spotify</span>
                 </div>
               </div>
             </a>
@@ -52,28 +54,32 @@ export default function Work() {
             whileInView={"show"} 
             viewport={{once: false, amount: 0.3}} className="flex-1 flex flex-col gap-y-7">
 
-            <a href="">
+            <a href="https://test-zeta-dun-23.vercel.app/">
               <div className="group relative overflow-hidden border-2 border-white/50 rounded-xl">
                 <div className="group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300"></div>
-                <img className="group-hover:scale-125 transition-all duration-600" src={Img2} alt="" />
+
+                <img className="group-hover:scale-125 transition-all duration-600" src={Img1} alt="" />
+                
                 <div className="absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50">
-                  <span className="text-gradient">Desenvolvedor Front-end</span>
+                  <span className="text-gradient">IgniteApp</span>
                 </div>
                 <div className="absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50">
-                  <span className="text-3-xl text-white">Projeto</span>
+                  <span className="text-3-xl text-white">Feed de uma rede social conhecida como IgniteApp...</span>
                 </div>
               </div>
             </a>
 
-            <a href="">
+            <a href="https://netflix-clone-mocha-sigma.vercel.app/auth">
               <div className="group relative overflow-hidden border-2 border-white/50 rounded-xl">
                 <div className="group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300"></div>
+
                 <img className="group-hover:scale-125 transition-all duration-600" src={Img3} alt="" />
+                
                   <div className="absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50">
-                    <span className="text-gradient">Desenvolvedor Front-end</span>
+                    <span className="text-gradient">Netflix</span>
                   </div>
                 <div className="absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50">
-                  <span className="text-3-xl text-white">Projeto</span>
+                  <span className="text-3-xl text-white">Clone Full Stack do Netflix</span>
                 </div>
               </div>
             </a>

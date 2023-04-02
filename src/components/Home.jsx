@@ -11,7 +11,7 @@ import { TypeAnimation } from 'react-type-animation'
 import { motion } from 'framer-motion'
 
 import { fadeIn } from '../variants'
-import { Link } from 'react-scroll';
+import { Link } from 'react-scroll'
 
 
 export default function Home() {
@@ -46,7 +46,11 @@ export default function Home() {
               <button className="btn btn-lg">
                 <a href="https://linktree-zeta.vercel.app/">Contato</a>
               </button>
-              <a href="#" className="text-gradient btn-link">Meu Portifólio</a>
+              <a href="#" className="text-gradient btn-link">
+                <Link to="work" activeClass="active" smooth={true} spy={true}>
+                  Projetos
+                </Link>
+              </a>
             </motion.div>
   
               <motion.div variants={fadeIn('up', 0.7)} initial="hidden" whileInView={'show'} viewport={{once: false, amount: 0.7}} className="flex text-[20px] gap-x-6 max-w-max mx-auto lg:mx-0">
@@ -54,7 +58,7 @@ export default function Home() {
                   <FaGithub />
                 </a>
   
-                <a href="#">
+                <a href="https://www.linkedin.com/in/daniel-queiroz-669b42210/">
                   <FaLinkedin />
                 </a>
 

@@ -23,19 +23,19 @@ export default function Skills() {
           
             <div className="element-photos element-1 flex justify-center items-center">
             <SiJavascript size={80} color="orange"/>
-                <div className="title-element text-gradient">JavaScript</div>
+                <div className="title-element text-gradient flex justify-center">JavaScript</div>
             </div>
           
 
           <div className="element-photos element-2 flex justify-center items-center">
           <FaReact size={80} color="blue"/>
                             
-              <div className="title-element text-gradient flex items-center">React</div>
+              <div className="title-element text-gradient flex items-center justify-center">React</div>
           </div>
 
           <div className="element-photos element-2 flex justify-center items-center">
               <TbBrandNextjs size={80} />
-              <div className="title-element text-gradient">Next.Js</div>
+              <div className="title-element text-gradient flex justify-center">Next.Js</div>
           </div>
 
           <div className="element-photos element-3 flex justify-center items-center">
@@ -44,22 +44,22 @@ export default function Skills() {
                   Skills
                 </span>
               </div>
-              <div className="title-element text-gradient flex">Technologies</div>
+              <div className="title-element text-gradient flex justify-center">Technologies</div>
           </div>
 
           <div className="element-photos element-4 flex justify-center items-center">
             <SiTypescript size={80} color="blue" />
-          <div className="title-element text-gradient">TypeScript</div>
+          <div className="title-element text-gradient flex justify-center">TypeScript</div>
           </div>
 
           <div className="element-photos element-5 flex justify-center items-center">
             <FaNodeJs size={80} color="green" />
-              <div className="title-element text-gradient">NodeJs</div>
+              <div className="title-element text-gradient flex justify-center">NodeJs</div>
           </div>
           
           <div className="element-photos element-5 flex justify-center items-center">
             <FaGitAlt size={80} color="red"/>
-              <div className="title-element text-gradient">GIT</div>
+              <div className="title-element text-gradient flex justify-center">GIT</div>
           </div>
 
         </motion.div>
