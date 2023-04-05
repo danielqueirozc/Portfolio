@@ -12,7 +12,7 @@ import { fadeIn } from '../variants'
 export default function Skills() {
   return(
     <section className="section flex items-center" id="skills">
-      <Link className="container mx-auto">
+      <Link className="container mx-auto hidden lg:block">
 
         <motion.div variants={fadeIn('left', 0.3)} 
             initial="hidden" 

@@ -62,7 +62,7 @@ export default function Home() {
                   <FaLinkedin />
                 </a>
 
-                <a href="assets/curriculo.pdf" download="Curriculo">
+                <a href="curriculo.pdf" download="curriculo">
                   <BsFileText />
                 </a>
               </motion.div>  
