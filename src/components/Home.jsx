@@ -1,4 +1,4 @@
-import React from 'react';
+import React from 'react'
 
 import Image from '../assets/avatar.png'
 
@@ -62,7 +62,7 @@ export default function Home() {
                   <FaLinkedin />
                 </a>
 
-                <a href="#">
+                <a href="assets/curriculo.pdf" download="Curriculo">
                   <BsFileText />
                 </a>
               </motion.div>  

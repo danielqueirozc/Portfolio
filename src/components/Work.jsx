@@ -64,7 +64,7 @@ export default function Work() {
                   <span className="text-gradient">IgniteApp</span>
                 </div>
                 <div className="absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50">
-                  <span className="text-3-xl text-white">Feed de uma rede social conhecida como IgniteApp...</span>
+                  <span className="text-3-xl text-white">Feed IgniteApp</span>
                 </div>
               </div>
             </a>
@@ -79,7 +79,7 @@ export default function Work() {
                     <span className="text-gradient">Netflix</span>
                   </div>
                 <div className="absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50">
-                  <span className="text-3-xl text-white">Clone Full Stack do Netflix</span>
+                  <span className="text-3-xl text-white">Clone Full Stack Netflix</span>
                 </div>
               </div>
             </a>
