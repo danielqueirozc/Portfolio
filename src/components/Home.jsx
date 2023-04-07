@@ -62,7 +62,7 @@ export default function Home() {
                   <FaLinkedin />
                 </a>
 
-                <a href="curriculo.pdf" download="curriculo">
+                <a href="https://curriculo-azure.vercel.app/">
                   <BsFileText />
                 </a>
               </motion.div>  

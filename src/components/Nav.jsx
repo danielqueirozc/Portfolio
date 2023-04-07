@@ -23,6 +23,7 @@ export default function Nav() {
             <BsClipboardData />
           </Link>
         </div>
+        
           <Link to="work" activeClass="active" smooth={true} spy={true} className="cursor-pointer w-[60px] h-[60px] flex items-center justify-center">
             <BsBriefcase />
           </Link>
