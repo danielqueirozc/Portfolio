@@ -6,7 +6,7 @@ import { fadeIn } from '../variants'
 
 import emailJs from '@emailjs/browser'
 
-export default function Contact() {
+export function Contact() {
   const [name, setName] = useState('')
   const [email, setEmail] = useState('')
   const [message, setMessage] = useState('') 

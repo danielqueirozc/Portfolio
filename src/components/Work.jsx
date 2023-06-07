@@ -8,7 +8,7 @@ import Img1 from '../assets/portifolio-img1.png'
 import Img2 from '../assets/portifolio-img2.png'
 import Img3 from '../assets/portifolio-img3.png'
 
-export default function Work() {
+export function Work() {
   return(
     <section className="section" id="work">
       <div className="container mx-auto">

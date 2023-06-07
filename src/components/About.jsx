@@ -7,7 +7,7 @@ import { motion } from 'framer-motion'
 import { fadeIn } from '../variants'  
 import { Link } from 'react-scroll'
 
-export default function About() {
+export function About() {
   const [ref, InView] = useInView({
     threshold: 0.5,
   })
@@ -56,11 +56,9 @@ export default function About() {
               <button className="btn btn-lg">
                 <a href="https://www.linkedin.com/in/daniel-queiroz-669b42210/">LinkedIn</a>
               </button>
-              <Link to="work" activeClass="active" smooth={true} spy={true}>
-                <a href="" className="text-gradient btn-link">
+                <a href="https://curriculo-henna.vercel.app/" className="text-gradient btn-link">
                   Currículo
                 </a>
-              </Link>
             </div>
           </motion.div>
         </div>

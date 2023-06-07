@@ -2,7 +2,7 @@ const { violet, blackA, mauve, green } = require('@radix-ui/colors');
 
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ['./App.jsx'],
+  content: ['./App.tsx'],
   theme: {
     extend: {
       colors: {

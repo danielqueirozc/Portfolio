@@ -9,7 +9,7 @@ import { motion } from 'framer-motion'
 
 import { fadeIn } from '../variants'
 
-export default function Skills() {
+export function Skills() {
   return(
     <section className="section flex items-center" id="skills">
       <Link className="container mx-auto hidden lg:block">

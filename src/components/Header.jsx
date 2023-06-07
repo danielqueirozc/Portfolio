@@ -2,7 +2,7 @@ import React from 'react'
 
 import { Link } from 'react-scroll'
 
-export default function Header() {
+export function Header() {
   return (
     <header className="py-8">
       <div className="container mx-auto">
@@ -12,7 +12,7 @@ export default function Header() {
           </a>  
 
             <button className="btn btn-sm">
-              <Link to="contact" activeClass="active"l smooth={true} spy={true}>
+              <Link to="contact" activeClass="active" smooth={true} spy={true}>
                 Trabelhe comigo
               </Link>
             </button>
