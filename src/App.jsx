@@ -10,7 +10,7 @@ import {Skills} from "./components/Skills";
 
 export function App() {
   return (
-    <div className="bg-black bg-no-repeat bg-cover overflow-hidden">
+    <div className="bg-site bg-no-repeat bg-cover overflow-hidden">
       <Header />
       <Home />
       <Nav />

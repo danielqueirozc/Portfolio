@@ -56,6 +56,7 @@ module.exports = {
       },
       backgroundImage: {
         about: "url('./assets/about.png')",
+        site: "url('./assets/site-bg.jpg')",
       },
       
     },
