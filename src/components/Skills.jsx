@@ -28,8 +28,7 @@ export function Skills() {
           
 
           <div className="element-photos element-2 flex justify-center items-center">
-          <FaReact size={80} color="blue"/>
-                            
+          <FaReact size={80} color="blue"/> 
               <div className="title-element text-gradient flex items-center justify-center">React</div>
           </div>
 
@@ -49,7 +48,7 @@ export function Skills() {
 
           <div className="element-photos element-4 flex justify-center items-center">
             <SiTypescript size={80} color="blue" />
-          <div className="title-element text-gradient flex justify-center">TypeScript</div>
+            <div className="title-element text-gradient flex justify-center">TypeScript</div>
           </div>
 
           <div className="element-photos element-5 flex justify-center items-center">
