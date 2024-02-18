@@ -78,7 +78,7 @@ export function Contact() {
                 </div>  
 
                 <div className={styles.form}>
-                    <form ref={form}  onSubmit={sendEmail}>
+                    <form onSubmit={sendEmail}>
                         <input type="text" placeholder='Nome' />
                         <input type="text" placeholder='E-mail' />
                         <textarea placeholder='Sua mensagem' />
