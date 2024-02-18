@@ -1,0 +1,79 @@
+.home {
+    width: 90rem;
+    height: 38.0625rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8.5rem;
+
+    padding: 6rem 7rem;
+}
+
+.content {
+    width: 37rem;
+    height: 18.5rem;
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2rem;
+
+    p {
+        color: var(--gray-300);
+    }
+}
+
+.buttons {
+    display: flex;
+    gap: 1rem;
+
+    width: 21.4375rem;
+    height: 3.5rem;
+
+    button {
+        width: 10rem;
+        height: 3.5rem;
+        padding: 1rem 1.5rem;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 0.5rem;
+
+        border: 0;
+        cursor: pointer;
+        border-radius: 8px;
+        color: var(--gray-100);
+        transition: background-color 0.4s;
+
+    }
+
+    .buttonAboutMe {
+        background-color: var(--purple-200);
+    }
+
+    .buttonAboutMe:hover {
+        background-color: var(--purple-100);
+    }
+
+    .buttonContact {
+        background-color: var(--purple-500);
+    }
+
+    .buttonContact:hover {
+        background-color: var(--purple-600);
+    }
+}
+
+.illustration {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+@media (max-width: 768px) {
+    .illustrationComputer {
+        height: 50px;
+    }
+}

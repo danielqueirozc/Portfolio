@@ -1,0 +1,45 @@
+:root {
+    --purple-100: #4e4563;
+    --purple-200: #413a4f;
+    --purple-300: #2c243b;
+    --purple-400: #171023;
+    --purple-500: #8a42db;
+    --purple-600: #9955e8;
+
+    --green-50: #7dffaf;
+
+    --gray-100: #f5f6f6;
+    --gray-300: #cdd0d4;
+}
+
+:focus {
+    outline: transparent;
+    box-shadow: 0 0 0 1px var(--green-50);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--purple-400);
+    color: var(--gray-100);
+}
+
+body, button {
+    font-family: 'Heebo', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+@media (max-width: 768px) {
+    html {
+        font-size: 87.5%;
+    }
+
+    /* body {
+        padding: 0 1rem;
+    } */
+}

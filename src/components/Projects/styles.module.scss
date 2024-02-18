@@ -1,0 +1,114 @@
+.projects {
+    width: 90rem;
+    height: 42.5rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2.5rem;
+
+    padding: 4.5rem 7rem;
+
+    position: relative;
+
+    button {
+        width: 8.75rem;
+        height: 3.5rem;
+
+        background-color: var(--purple-200);
+        border: 0;
+        border-radius: 0.5rem;
+        cursor: pointer;
+        transition: background-color 0.4s;
+        color: var(--gray-100);
+
+        padding: 1rem;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 0.5rem;           
+    }
+
+    button:hover {
+        background-color: var(--purple-100);
+    }
+    
+}
+
+.titles {
+    width: 37rem;
+    height: 3.5rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 0.5rem;
+    
+    margin-top: 1rem;
+
+    span {
+        color: var(--green-50);
+    }
+}
+
+.illustration1{
+  position: absolute;
+  left: 3.75rem;
+  top: 8.125rem;
+}
+
+.illustration2{
+    position: absolute;
+    right: 1.875rem;
+    bottom: .625rem;
+  }
+
+  .highlightsContainer {
+    width: 76.25rem;
+    height: 21.5rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+@media (max-width: 768px) {
+    .projects {
+        width: 100%;
+        height: 83rem;
+
+        margin: 0 auto;
+    }
+
+    .titles {
+        height: 5.5rem;
+        margin: 0;
+    }
+    
+    .highlightsContainer {
+        width: 48rem;
+        height:calc(21.5rem + 21.5rem + 21.5rem + 4rem) ;
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 481px) {
+    .projects {
+        width: 100%;
+    }  
+}
+
+@media (max-width: 320px) {
+    .illustration1 {
+        left: -1.25rem;
+    }
+
+    .illustration2 {
+        right: -1.25rem;
+    }
+    
+}
