@@ -99,7 +99,16 @@
 @media (max-width: 481px) {
     .projects {
         width: 100%;
-    }  
+    }
+    
+    .titles {
+        max-width: 21.875rem;
+        text-align: center;
+    }
+
+    .illustration1 {
+        left: -1.25rem;
+    }
 }
 
 @media (max-width: 320px) {
@@ -110,5 +119,9 @@
     .illustration2 {
         right: -1.25rem;
     }
-    
+
+    .titles {
+        width: 19.5rem;
+        height: 5.5rem;
+    }
 }

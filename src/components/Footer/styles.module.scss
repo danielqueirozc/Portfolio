@@ -61,5 +61,31 @@
         height: 10rem;
         justify-content: center;
         flex-direction: column;
-   } 
+
+        p {
+            width: 47.25rem;
+        }
+   }
+}
+
+@media (max-width: 481px) {
+    .footer {
+        width: 100%;
+    
+        p {
+            width: 21.875rem;
+        }
+    }
+
+}
+
+@media (max-width: 320px) {
+    .footer {
+        width: 100%;
+    
+        p {
+            width: 19.5rem;
+        }
+    }
+
 }
