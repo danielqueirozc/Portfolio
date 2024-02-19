@@ -8,24 +8,23 @@ import { useEffect, useState } from 'react';
 import { HeaderMobile } from '@/components/headerMobile';
 
 export default function Home() {
-  const [isMobile, setIsMobile] = useState(window.matchMedia("(max-width: 768px)").matches);  
+  const [isMobile, setIsMobile] = useState<boolean | undefined>(undefined);  
 
   useEffect(() => {
-    const mediaQuery = window.matchMedia("(min-width: 768px)");
-
-
-    function handleChange() {
-      return setIsMobile(mediaQuery.matches);
+    function updateIsMobile(event?: MediaQueryListEvent) {
+      
+      const matches = event ? event.matches : window.matchMedia("(max-width: 768px)").matches;
+      setIsMobile(matches);
     }
 
-    mediaQuery.addListener(handleChange);
-    
-    return (
-        function removeListenner() {
-            mediaQuery.removeListener(handleChange);
-        }
-    )
+    updateIsMobile();
+
+    const mediaQuery = window.matchMedia("(max-width: 768px)");
+    mediaQuery.addEventListener('change', updateIsMobile);
+
   }, [])
+
+  if (isMobile === undefined) return null
 
   return (
       <div className={styles.app}>
