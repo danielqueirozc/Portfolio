@@ -1,16 +1,20 @@
+import { useState } from 'react';
+
+
 import styles from './styles.module.scss';
 
 import { kalam } from '../../app/fonts';
 
-import { MdOutlineWbSunny } from "react-icons/md";
 import { TbLetterX } from "react-icons/tb";
+import { ButtonDarkMode } from '../ButtonDarkMode';
+
 
 export function Header() {
    
 
     return (
         <header className={styles.header}>
-            <div className={ kalam.className}>
+            <div className={`${kalam.className} ${styles.title}`}>
                 <span>Daniel</span>
                 <strong>Queiroz</strong>
             </div>
@@ -37,24 +41,9 @@ export function Header() {
                         EN
                     </button>
 
-                    <button>
-                        <MdOutlineWbSunny size={20} />
-                    </button>
+                   <ButtonDarkMode />
                 </ul>
             </nav>
-
-            <div className={styles.menuMobile}>
-                <a href="#home">Home</a>
-                <a href="#sobre">Sobre</a>
-                <a href="#projetos">Projetos</a>
-                <a href="#contato">Contato</a>
-
-                <span></span>
-
-                <div>
-                    
-                </div>
-            </div>
         </header>
     );
 }

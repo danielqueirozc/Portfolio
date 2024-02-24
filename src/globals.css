@@ -10,6 +10,7 @@
 
     --gray-100: #f5f6f6;
     --gray-300: #cdd0d4;
+    --gray-900: #121214;
 }
 
 :focus {
@@ -24,7 +25,6 @@
 }
 
 body {
-    background-color: var(--purple-400);
     color: var(--gray-100);
 }
 
@@ -38,8 +38,4 @@ body, button {
     html {
         font-size: 87.5%;
     }
-
-    /* body {
-        padding: 0 1rem;
-    } */
 }

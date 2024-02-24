@@ -1,19 +1,3 @@
-.nav {
-  position: absolute;
-  top: 2.5rem;
-  right: 0;
-
-  backdrop-filter: blur(3px);
-  
-  width: 100%;
-  height: 100vh; 
-  
-  background-color: transparent;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-
-  padding: .75rem 1rem;
-}
-
 .container {
   width: 100%;
   height: 4rem;
@@ -26,14 +10,29 @@
 
   padding: 1rem 3rem;
 
-  position: fixed;
-  z-index: 1000;
   box-shadow: 0 2px 5px rgba(0,0,0,0.2);
 
   span, strong {
     font-size: 2.5rem;
     line-height: 5.6;
   }
+}
+
+.nav {
+  position: absolute;
+  top: 2.5rem;
+  right: 0;
+
+  backdrop-filter: blur(3px);
+  
+  width: 100%;
+  max-width: 48rem;
+  height: 100vh; 
+  
+  background-color: transparent;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+
+  padding: .75rem 1rem;
 }
 
 .hamburger {
@@ -121,12 +120,3 @@
       background-color: var(--purple-100);
     }
   }
-
-  @media (max-width: 481px) {
-    .container {
-      span, strong {
-        font-size: 1.5625rem;
-      }
-    }
-  }
-  

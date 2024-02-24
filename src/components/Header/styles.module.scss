@@ -3,7 +3,9 @@
     max-width: 90rem;
     max-height: 5rem;
 
-    background-color: var(--purple-400);
+    margin: 0 auto;
+
+    background-color: transparent;
 
     display: flex;
     align-items: center;
@@ -16,8 +18,7 @@
         line-height: 5.6;
     }
 
-    position: fixed;
-    z-index: 1000;
+   
     box-shadow: 0 2px 5px rgba(0,0,0,0.2);
 }
 
@@ -79,8 +80,8 @@
     display: none;
 }
 
-@media (max-width: 768px) {
-    .nav {
-        display: none;
+@media (min-width: 992px) {
+    .header {
+       
     }
 }

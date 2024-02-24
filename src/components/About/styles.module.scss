@@ -2,6 +2,9 @@
     width: 100%;
     max-width: 90rem;
     height: 38.75rem;
+
+    display: flex;
+    justify-content: center;
 }
 
 .container {
@@ -9,6 +12,8 @@
     height: 33.75rem;
 
     background-color: var(--purple-300);
+    
+    border-radius: 16px;
 
     display: flex;
     justify-content: center;
@@ -16,7 +21,6 @@
     gap: 8.5rem;
 
     padding: 4.5rem;
-    border-radius: 16px;
 }
 
 .content {
@@ -67,6 +71,33 @@
 
     svg {
         color: var(--purple-500);
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+    .about {
+        width: 100%;
+        height: 53.8125rem;
+
+        background-color: var(--purple-300);
+
+    }
+
+    .container {
+        width: 100%;
+        height: 100%;
+        flex-direction: column;
+
+        gap: 1.25rem;
+
+        border-radius: 0;
+    }
+
+    .content {
+        height: 29.5rem;
+    }
+    .programming {
+        height: 18.75rem;
     }
 }
 

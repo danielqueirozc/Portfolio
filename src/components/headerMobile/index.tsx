@@ -14,8 +14,8 @@ export function HeaderMobile() {
     }
 
     return (
-        <div className={styles.container}>
-            <div className={ kalam.className}>
+        <header className={styles.container}>
+            <div className={`${kalam.className} ${styles.title}`}>
                 <span>Daniel</span>
                 <strong>Queiroz</strong>
             </div>
@@ -59,6 +59,6 @@ export function HeaderMobile() {
                     </div>
                 </nav>
             )}
-        </div>
+        </header>
     );
 }

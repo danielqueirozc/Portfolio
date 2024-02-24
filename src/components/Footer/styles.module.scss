@@ -9,6 +9,7 @@
 
     padding: 2rem 7rem;
 
+
     .socialMedia {
         width: 22rem;
         height: 3rem;
@@ -18,7 +19,7 @@
         gap: 1.5rem;
 
         a {
-            width: 4.125rem;
+            width: 100%;
             height: 3rem;
 
             padding: .75rem;
@@ -55,20 +56,25 @@
     }
 }
 
-@media (max-width: 768px) {
+@media (min-width: 992px) {
+    
+}
+
+
+@media (min-width: 768px) {
    .footer {
         width: 100%;
         height: 10rem;
         justify-content: center;
         flex-direction: column;
-
-        p {
-            width: 47.25rem;
+   
+        .socialMedia {
+            width: 100%;
         }
-   }
+    }
 }
 
-@media (max-width: 481px) {
+@media (min-width: 481px) {
     .footer {
         width: 100%;
     
@@ -79,9 +85,11 @@
 
 }
 
-@media (max-width: 320px) {
+@media (min-width: 320px) {
     .footer {
         width: 100%;
+        flex-direction: column;
+        justify-content: center;
     
         p {
             width: 19.5rem;

@@ -76,6 +76,26 @@
     gap: 2rem;
 }
 
+@media (min-width: 992px) and (max-width: 1200px) {
+    .projects {
+        width: 100%;
+        height: 83rem;
+
+        margin: 0 auto;
+    }
+
+    .titles {
+        height: 5.5rem;
+        margin: 0;
+    }
+    
+    .highlightsContainer {
+        width: 48rem;
+        height:calc(21.5rem + 21.5rem + 21.5rem + 4rem) ;
+        flex-direction: column;
+    }
+}
+
 @media (max-width: 768px) {
     .projects {
         width: 100%;

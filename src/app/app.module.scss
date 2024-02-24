@@ -1,10 +1,13 @@
 .app {
     width: 100%;
-    max-width: 90rem;
     margin: 0 auto;
+
 }
 
-// @media (max-width: 768px) {
+.backgroundDefault {
+    background-color: var(--purple-400);
+}
 
-// }
-
+.backgroundDark {
+    background-color: var(--gray-900);
+}

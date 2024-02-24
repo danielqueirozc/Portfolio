@@ -12,10 +12,10 @@ import { HomeMobile} from '../HomeMobile';
 import styles from './styles.module.scss';
 
 export function Main() {
-    const [isMobile, setIsMobile] = useState(window.matchMedia("(max-width: 768px)").matches);
+    const [isMobile, setIsMobile] = useState(window.matchMedia("(max-width: 992px)").matches);
 
     useEffect(() => {
-        const mediaQuery = window.matchMedia("(min-width: 768px)");
+        const mediaQuery = window.matchMedia("(min-width: 992px)");
 
         function handleChange() {
             return setIsMobile(mediaQuery.matches);

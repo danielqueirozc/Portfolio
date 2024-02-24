@@ -72,7 +72,27 @@
     flex-direction: column;
 }
 
-@media (max-width: 768px) {
+
+@media (min-width: 992px) and (max-width: 1200px) {
+    .home {
+        width: 100%;
+        height: 53.125rem;
+    
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 1.5rem;
+    
+        padding: 3rem 1.5rem;
+    }
+
+    // .buttons {
+    //    gap: 10rem;
+    // }
+}
+ 
+@media (min-width: 768px) {
     .illustrationComputer {
         height: 50px;
     }

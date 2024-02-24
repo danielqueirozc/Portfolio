@@ -1,14 +1,18 @@
 "use client"
 
+import { useEffect, useState } from 'react';
+
+import { useTheme } from './ThemeProvider';
+
 import { Main } from '@/components/Main';
 import styles from './app.module.scss';
 
 import { Header } from "@/components/Header";
-import { useEffect, useState } from 'react';
 import { HeaderMobile } from '@/components/headerMobile';
 
 export default function Home() {
-  const [isMobile, setIsMobile] = useState<boolean | undefined>(undefined);  
+  const [isMobile, setIsMobile] = useState<boolean | undefined>(undefined);   
+  const {theme} = useTheme();
 
   useEffect(() => {
     function updateIsMobile(event?: MediaQueryListEvent) {
@@ -24,10 +28,10 @@ export default function Home() {
 
   }, [])
 
-  if (isMobile === undefined) return null
+  if (isMobile === undefined) return null;
 
   return (
-      <div className={styles.app}>
+      <div className={`${styles.app} ${theme === 'default' ? styles.backgroundDefault : styles.backgroundDark}`}>
         {isMobile ? <HeaderMobile /> : <Header /> }
         <Main />
       </div>
