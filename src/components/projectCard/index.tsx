@@ -4,7 +4,7 @@ export function ProjectCard() {
     return (
         <div className={styles.highlight}>
             <div className={styles.cover}>
-
+                
             </div>
 
             <div className={styles.infoAndIconProject}>

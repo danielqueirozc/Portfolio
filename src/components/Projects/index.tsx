@@ -41,10 +41,10 @@ export function Projects() {
                 alt=''
             />
 
-            <button>
+               <a href="https://github.com/danielqueirozc">
                 Ver todos
                 <GoArrowRight />
-            </button>
+               </a>
         </section>
     ); 
 }

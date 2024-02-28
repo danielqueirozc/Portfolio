@@ -10,15 +10,15 @@ export function Footer() {
             </p>
 
             <div className={styles.socialMedia}>
-                <a href="#">
+                <a href="https://github.com/danielqueirozc">
                     GitHub
                 </a>
 
-                <a href="#">
+                <a href="https://www.linkedin.com/in/daniel-queiroz-669b42210/">
                     LinkedIn
                 </a>
 
-                <a href="#">
+                <a href="https://instagram.com/danqcruz">
                     Instagram
                 </a>
 
