@@ -37,10 +37,10 @@ export function About() {
                         Sobre mim
                     </span>
                     <h1>
-                        I’m a passionate software developer looking for <br /> my first international oppotunity
+                        I’m a passionate software developer looking for my first international oppotunity
                     </h1>
                     <p>
-                        Beyond coding, I'm a coffee enthusiast, a cat lover, and a self-taught artist who <br /> enjoys spending my free time doodling. I am currently seeking opportunities to <br /> bring my skills and enthusiasm to a tech company in the United States or Europe <br /> and am excited about the prospect of relocating to pursue new challenges.
+                        Beyond coding, I'm a coffee enthusiast, a cat lover, and a self-taught artist who enjoys spending my free time doodling. I am currently seeking opportunities to bring my skills and enthusiasm to a tech company in the United States or Europe and am excited about the prospect of relocating to pursue new challenges.
                     </p>
                     <button>
                         <BsJournalText />

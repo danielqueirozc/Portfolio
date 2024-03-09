@@ -56,7 +56,27 @@
     }
 }
 
-@media (max-width: 481px) {
+@media (min-width: 992px) and (max-width: 1200px) {
+    .highlight {
+        min-width: 100%;
+    }
+
+    .cover {
+        min-width: 100%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .highlight {
+        min-width: 100%;
+    }
+
+    .cover {
+        min-width: 100%;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
     .highlight {
         width: 19.5rem;
         height: 20.5rem;

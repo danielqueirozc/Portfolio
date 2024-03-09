@@ -72,6 +72,12 @@
     flex-direction: column;
 }
 
+@media (min-width: 1201px) and (max-width: 1440px) {
+    .home {
+        max-width: 100%;
+        padding: 2.5rem;
+    }
+}
 
 @media (min-width: 992px) and (max-width: 1200px) {
     .home {
@@ -87,13 +93,14 @@
         padding: 3rem 1.5rem;
     }
 
-    // .buttons {
-    //    gap: 10rem;
-    // }
 }
  
 @media (min-width: 768px) {
     .illustrationComputer {
         height: 50px;
     }
+}
+
+@media (min-width: 481px) {
+    
 }

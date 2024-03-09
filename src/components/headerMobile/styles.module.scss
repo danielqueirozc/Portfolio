@@ -26,7 +26,6 @@
   backdrop-filter: blur(3px);
   
   width: 100%;
-  max-width: 48rem;
   height: 100vh; 
   
   background-color: transparent;
@@ -118,5 +117,11 @@
 
     button:hover {
       background-color: var(--purple-100);
+    }
+  }
+
+  @media (min-width: 768px) {
+    .nav {
+
     }
   }

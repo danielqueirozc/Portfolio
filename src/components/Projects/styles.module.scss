@@ -76,12 +76,30 @@
     gap: 2rem;
 }
 
+@media (min-width: 1201px) and (max-width: 1440px) {
+    .projects {
+        max-width: 100%;
+    }
+
+    // .highlightContainer {
+    //     max-width: 80%;
+    // }
+}
+
 @media (min-width: 992px) and (max-width: 1200px) {
     .projects {
         width: 100%;
         height: 83rem;
 
-        margin: 0 auto;
+        padding: 0;
+
+        .illustration1 {
+            left: 0;
+        }
+
+        .illustration2 {
+            right: -200px;
+        }
     }
 
     .titles {
@@ -90,18 +108,29 @@
     }
     
     .highlightsContainer {
-        width: 48rem;
-        height:calc(21.5rem + 21.5rem + 21.5rem + 4rem) ;
+        padding: 1rem 12rem;
+
+        max-width: 100%;
+        height:calc(21.5rem + 21.5rem + 21.5rem + 4rem);
+        
         flex-direction: column;
     }
 }
 
-@media (max-width: 768px) {
+@media (min-width: 768px) and (max-width: 991px) {
     .projects {
         width: 100%;
         height: 83rem;
 
-        margin: 0 auto;
+        padding: 0;
+
+        .illustration1 {
+            left: 0;
+        }
+
+        .illustration2 {
+            right: -200px;
+        }
     }
 
     .titles {
@@ -110,38 +139,59 @@
     }
     
     .highlightsContainer {
-        width: 48rem;
-        height:calc(21.5rem + 21.5rem + 21.5rem + 4rem) ;
+        padding: 1rem 12rem;
+
+        max-width: 100%;
+        height:calc(21.5rem + 21.5rem + 21.5rem + 4rem);
+        
         flex-direction: column;
     }
 }
 
-@media (max-width: 481px) {
+@media (min-width: 481px) and (max-width: 767px) {
     .projects {
         width: 100%;
+        height: 83rem;
     }
-    
+
     .titles {
         max-width: 21.875rem;
         text-align: center;
     }
 
-    .illustration1 {
-        left: -1.25rem;
-    }
-}
-
-@media (max-width: 320px) {
-    .illustration1 {
-        left: -1.25rem;
+    .highlightsContainer {
+        width: 48rem;
+        height:calc(21rem + 21rem + 21rem + 2rem) ;
+        flex-direction: column;
     }
 
     .illustration2 {
-        right: -1.25rem;
+        left: 43.75rem;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .projects {
+        width: 100%;
+        height: 83rem;
     }
 
     .titles {
-        width: 19.5rem;
-        height: 5.5rem;
+        max-width: 21.875rem;
+        text-align: center;
+    }
+
+    .highlightsContainer {
+        width: 48rem;
+        height:calc(21rem + 21rem + 21rem + 2rem) ;
+        flex-direction: column;
+    }
+
+    .illustration1 {
+        left: 0;
+    }
+
+    .illustration2 {
+        right: 0;
     }
 }
