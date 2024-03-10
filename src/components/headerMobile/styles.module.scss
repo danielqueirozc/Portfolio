@@ -20,7 +20,7 @@
 
 .nav {
   position: absolute;
-  top: 2.5rem;
+  top: 3rem;
   right: 0;
 
   backdrop-filter: blur(3px);
@@ -118,6 +118,14 @@
     button:hover {
       background-color: var(--purple-100);
     }
+  }
+
+  .backgroundDefault {
+    background-color: var(--purple-400);
+}
+
+  .backgroundDark {
+      background-color: var(--gray-900);
   }
 
   @media (min-width: 768px) {
